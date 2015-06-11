@@ -49,7 +49,7 @@ namespace ConsoleApplication1
             }
             catch(Exception) when (FirstName != null)
             {
-                WriteLine("CATCHED");
+                WriteLine("CATCHED YOU!!!");
             }
 
             ReadLine();
