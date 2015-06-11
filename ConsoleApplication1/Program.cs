@@ -50,6 +50,7 @@ namespace ConsoleApplication1
             catch(Exception) when (FirstName != null)
             {
                 WriteLine("CATCHED YOU!!!");
+                WriteLine(new Helper().SaySomething());
             }
 
             ReadLine();
