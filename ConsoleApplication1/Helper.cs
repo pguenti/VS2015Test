@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    internal class Helper
+    public class Helper
     {
         public string SaySomething()
         {
-            return "Bloed";
+            return "Hello";
         }
     }
 }
