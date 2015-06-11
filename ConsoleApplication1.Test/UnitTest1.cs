@@ -8,7 +8,7 @@ namespace ConsoleApplication1.Test
         [Test]
         public void SaySomething_Call_ReturnHello()
         {
-            Assert.AreEqual("Hello", new Helper().SaySomething());
+            Assert.AreEqual("Helloo", new Helper().SaySomething());
         }
     }
 }
