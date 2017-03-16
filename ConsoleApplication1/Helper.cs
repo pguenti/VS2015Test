@@ -12,5 +12,10 @@ namespace ConsoleApplication1
         {
             return "Hello Liebe Freunde ich bin auf dem MASTER!!!!";
         }
+
+        public string SayGoodbye()
+        {
+            return "Goodbye...";
+        }
     }
 }

@@ -7,6 +7,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine(new Helper().SaySomething());
+            Console.WriteLine(new Helper().SayGoodbye());
             Console.ReadLine();
         }
     }
