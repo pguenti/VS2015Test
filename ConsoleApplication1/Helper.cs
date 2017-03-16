@@ -18,7 +18,7 @@ namespace ConsoleApplication1
 
         public string SayGoodbye()
         {
-            return "Goodbye...";
+            return "Goodbye... release";
         }
     }
 }
