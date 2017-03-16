@@ -12,5 +12,10 @@ namespace ConsoleApplication1
         {
             return "Hello Liebe Freunde";
         }
+
+        public string SayGoodbye()
+        {
+            return "Goodbye...";
+        }
     }
 }
