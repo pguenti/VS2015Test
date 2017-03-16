@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         public string SaySomething()
         {
-            return "Hello Liebe Freunde";
+            return "Hello Liebe Freunde ich bin auf dem MASTER!!!!";
         }
     }
 }
