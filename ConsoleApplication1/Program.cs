@@ -6,6 +6,12 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            for (int i = 10; i >= 0; i--)
+            {
+                Console.WriteLine(i + "...");
+            }
+            Console.WriteLine("GOOOOOO\n\n");
+
             Console.WriteLine(new Helper().SaySomething());
             Console.WriteLine(new Helper().SayGoodbye());
             Console.ReadLine();
