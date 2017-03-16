@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FIGlet.Net;
 
 namespace ConsoleApplication1
 {
@@ -10,7 +11,9 @@ namespace ConsoleApplication1
     {
         public string SaySomething()
         {
-            return "Hello Liebe Freunde ich bin auf dem MASTER!!!!";
+            var fig = new Figlet();
+            var asciiart = fig.ToAsciiArt("Hello Liebe Freunde");
+            return asciiart;
         }
 
         public string SayGoodbye()
